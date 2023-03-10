@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Borcelle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+  <section id="navbar">  
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+      </label>
+      <img class="logo" src="images/logo.png" alt="">
+      <ul>                
+        <li><a href="#services">Services</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#chef">Our Chefs</a></li>
+        <li><a href="login.html">Log In</a></li>        
+      </ul>
+      </nav>
+    <!-- <section id="navbar">             -->
+        <img class="background" name="slide"  />
+        <h1 class="home-head">BORCELLE </h1>
+        <h1 class="home-head-2"> COFFEE SHOP</h1>             
+        <script>
+            var i = 0; //start point
+            var images = [];
+            var time = 3000;
+          
+            images[0] =
+              "https://th.bing.com/th/id/R.e0007730880280608e7fe12aae4a9313?rik=4pSnpBP7VCDS3Q&riu=http%3a%2f%2fveggietravel.com%2fwp-content%2fuploads%2f2017%2f05%2fimage6.jpg&ehk=w7wuhJI%2bBYiTi%2fwkuA3JyCu0tzPKJS7p29QhpUsubz0%3d&risl=&pid=ImgRaw&r=0";
+            images[1] =
+              "https://rdalimited.co.uk/wp-content/uploads/2018/04/IMG_1973.jpg";
+              images[2]="https://th.bing.com/th/id/R.b5414f19a17740d70064711a5b315433?rik=h9nlQNkZQ%2b63qQ&riu=http%3a%2f%2fgoodeatsarizona.com%2fwp-content%2fuploads%2f2016%2f09%2fThe-Coronet-Good-Eats-Tucson-Arizona-Mike-Puckett-SSW-19-of-59.jpg&ehk=%2bKhw1llF7VeDdjE9C0FH0D36plggkFn1i5IK2iVl6E4%3d&risl=&pid=ImgRaw&r=0"
+              images[3]="https://cdn.vox-cdn.com/thumbor/jLnEqq7yrXh_OJ0oIfENPMcHoVc=/0x0:1836x1377/1200x900/filters:focal(772x543:1064x835):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62458348/IMG_1310.14.jpg"
+            function changeImage() {
+              document.slide.src = images[i];
+              if (i < images.length - 1) {
+                i++;
+              } else {
+                i = 0;
+              }
+              setTimeout("changeImage()", time);
+            }
+            window.onload = changeImage;
+          </script>   
+    </section>
+    
+
+    <section id="about">        
+          <h1 class="about-head">
+            Your guide to the world <br />
+            of drinking great coffee.
+          </h1>
+          <p class="about-head-p">
+            The suppliers and producers we work with are at the top of their
+            <br />
+            game. It’s our role to carry the magic from their hands to your table.
+          </p>
+          <img
+            class="about-head-img"
+            src="https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/home_kofe_one_hero.png"
+            alt="" /> 
+    </section>
+
+
+<section id="services">
+  <h1>Borcelle Recommends</h1>  
+  <div class="card">     
+    <!-- <i class="fa-solid fa-arrow-left arrow"></i> -->
+      <div class="card-name">
+        <a href="cart.html"><img class="card-img" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/100501.webp" alt=""></a>        
+        <img class="veg" src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+        <h2>Java Chip Frappuchino</h2>
+        <p>Large(354ml),392kcal</p>
+        <p>$ 51.34</p>
+        <!-- <a href="cart.html"><button class="add-btn">Add Item</button></a> -->
+      </div>      
+      <div class="card-name">
+        <a href="cart.html"><img class="card-img" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/105468.webp" alt="">        </a>                
+        <img class="veg" src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+        <h2>Cold Coffee</h2>
+        <p>Large(354ml),392kcal</p>
+        <p>$ 51.45</p>
+        <!-- <a href="cart.html"><button class="add-btn">Add Item</button></a> -->
+      </div>
+      <div class="card-name">  
+        <a href="cart.html"><img class="card-img" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/105000.webp" alt="">        </a>              
+        <img class="veg" src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+        <h2>Vanilla Sweet Cream Cold</h2>
+        <p>Large(354ml),63kcal</p>
+        <p>$ 83.13</p>
+        <!-- <a href="cart.html"><button class="add-btn">Add Item</button></a> -->
+      </div>
+      <div class="card-name">  
+        <a href="cart.html"><img class="card-img" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/100447.webp" alt="">        </a>              
+        <img class="veg" src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+        <h2>Signature Hot Chocolate</h2>
+        <p>Large(354ml),284kcal</p>
+        <p>$ 78.12</p>
+        <!-- <a href="cart.html"><button class="add-btn">Add Item</button></a> -->
+      </div>
+      <div class="card-name">    
+        <a href="cart.html"><img class="card-img" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/100377.webp" alt="">         </a>           
+        <img class="veg" src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+        <h2>Caffee Lattee</h2>
+        <p>Small(237ml),104kcal</p>
+        <p>$ 40.34</p>
+         <!-- <a href="cart.html"><button class="add-btn">Add Item</button></a>  -->
+         <!-- <button class="add-btn">Add Item</button> -->
+      </div>
+      <div class="card-name">    
+        <a href="cart.html"><img class="card-img" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/100433.jpg" alt="">        </a>            
+        <img class="veg" src="https://www.starbucks.in/assets/icon/veg.svg" alt="">
+        <h2>Caffe Americano</h2>
+        <p>Short(237ml),0kcal</p>
+        <p>$ 35.34</p>
+        <!-- <a href="cart.html"><button class="add-btn">Add Item</button></a> -->
+      </div>
+      <!-- <i class="fa-solid fa-arrow-right arrow"></i>    -->
+  </div>
+
+
+
+  
+  
+</section>
+
+
+<section id="services-2">
+<div class="container">
+  <div class="container-content">
+    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-5.png" alt="">
+    <h1>TYPES OF COFFEE</h1>
+    <p>Arabica Arabica, Café Latte, Robusta, Espresso, Cappuccino etc.</p>
+  </div>
+  <div class="container-content">
+    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-6.png" alt="">
+    <h1>BEAN VARIETIES</h1>
+    <p>No matter where you are in the world, beans are a staple for any home cook. Some of the varietis used by us are: Yardlong Bean, French Beans, Broad or Fava Beans, Moth Beans etc.</p>
+  </div>
+  <div class="container-content">
+    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-7.png" alt="">
+    <h1>COFFEE & PASTRY</h1>
+    <p>This snack cake catches the eye with its ripe red plums, toasted almonds, and glistening sugary crust, but the tender cake hidden underneath is the real star. The moist cake has a tight crumb, but a trio of butter, sour cream, and chunks of thick, sweet almond paste make it exceptionally tender.</p>
+  </div>
+  <div class="container-content">
+    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-8.png" alt="">
+    <h1>COFFEE TO GO</h1>
+    <p>The Blonde roast is the go-to for coffee lovers who prefer a lighter and sweeter coffee roast. Easily, this is the most common roast type among Coffee Travelers</p>
+  </div>
+</div>
+</section>
+
+
+<section id="shop">  
+  <div class="shop-card">
+    <h1>ONLINE COFFEE SHOP</h1>
+    <p>The one and only stop for the best qulaity coffee beans!</p>
+  </div>
+    <div class="shopping">
+    <div class="shopping-content">
+      <a href="coffee.html"><img src="https://images-na.ssl-images-amazon.com/images/I/61M5-G9lqbL.jpg" alt=""></a>      
+      <p>ETHIOPIA COFFEE</p>
+      <p>$ 20</p>
+      <!-- <button class="shop-btn">Buy Now</button> -->
+    </div>
+    <div class="shopping-content">
+      <a href="coffee.html"><img src="https://images-na.ssl-images-amazon.com/images/I/61M5-G9lqbL.jpg" alt=""></a>      
+      <p>ETHIOPIA COFFEE</p>
+      <p>$ 24</p>
+      <!-- <button class="shop-btn">Buy Now</button> -->
+    </div>
+    <div class="shopping-content">
+      <a href="coffee.html"><img src="https://i5.walmartimages.com/asr/1f88194c-79e2-4496-9923-31842e34d08f.0d8690295048ef1c028c4ecdab337898.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff" alt=""></a>      
+      <p>KENYA COFFEE</p>
+      <p>$ 20</p>
+      <!-- <button class="shop-btn">Buy Now</button> -->
+    </div>
+    <div class="shopping-content">
+      <a href="coffee.html"><img src="https://healthy-american-home.s3.amazonaws.com/ecommerce/hah/wp-content/uploads/2020/11/18195313/61OBKUUttEL._SL1500_.jpg" alt=""></a>      
+      <p>VOLCANICA COFFEE</p>
+      <p>$ 42</p>
+      <!-- <button class="shop-btn">Buy Now</button> -->
+    </div>   
+    <div class="shopping-content">
+      <a href="cofee.html"><img src="https://m.media-amazon.com/images/I/51UHY1P9poL.jpg" alt=""></a>      
+      <p>COLUMBIA COFFEE</p>
+      <p>$ 30</p>
+      <!-- <button class="shop-btn">Buy Now</button> -->
+    </div>          
+  </div>
+</section>
+
+<section id="chef">
+  <h1 class="chef-head">Meet Our Chefs</h1>
+  <div class="chef">
+    <div class="chef-border">
+      <div class="chef-content">
+        <img src="https://xpressrow.com/html/cafena/cafena/assets/images/team/team-6.jpeg" alt="">
+        <h4>HOXAL DINO</h4>
+        <p>08 YEAR EXPERIENCE</p>
+      </div>
+    </div>  
+    <div class="chef-border">
+      <div class="chef-content">
+        <img src="https://xpressrow.com/html/cafena/cafena/assets/images/team/team-1.jpeg" alt="">
+        <h4>RASALINA DE WILLAMSON</h4>
+        <p>12 YEAR EXPERIENCE</p>
+      </div>
+    </div>      
+      <div class="chef-border">
+        <div class="chef-content">
+          <img src="https://xpressrow.com/html/cafena/cafena/assets/images/team/team-3.jpeg" alt="">
+          <h4>JIMMEY AENDERSON</h4>
+          <p>06 YEAR EXPERIENCE</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="chef">
+    <div class="chef-border">
+      <div class="chef-content">
+        <img src="https://xpressrow.com/html/cafena/cafena/assets/images/team/team-4.jpeg" alt="">
+        <h4>RD. AENDERSON</h4>
+        <p>02 YEAR EXPERIENCE</p>
+      </div>
+    </div>  
+    <div class="chef-border">
+      <div class="chef-content">
+        <img src="https://th.bing.com/th/id/R.229ffaa17885bc07264e4067f6c8d845?rik=pT2Jpn265U0MhA&riu=http%3a%2f%2feducationcareerarticles.com%2fwp-content%2fuploads%2f2014%2f07%2fChef6.jpg&ehk=2sKfY3llMjSdmaW0%2bYcGI6sHqrzVRxLXaoMKnZOYy%2fw%3d&risl=&pid=ImgRaw&r=0" alt="">
+        <h4>LR. LANO</h4>
+        <p>08 YEAR EXPERIENCE</p>
+      </div>
+    </div>      
+      <div class="chef-border">
+        <div class="chef-content">
+          <img src="https://xpressrow.com/html/cafena/cafena/assets/images/team/team-5.jpeg" alt="">
+          <h4>JIMMEY ROBERT</h4>
+          <p>03 YEAR EXPERIENCE</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="hours">
+    <img src="https://thumbs.dreamstime.com/b/cup-coffee-coffee-shop-vintage-color-tone-63974578.jpg" alt="">
+    <img src="images/hours.png" alt="">    
+  </div>  
+</section>
+
+
+<section>
+  <h1 class="news">LATEST NEWS & BLOG</h1>
+  <div class="blog">
+  <div class="news-content">
+    <img src="https://xpressrow.com/html/cafenod/assets/images/blog/img_01.png" alt="">
+    <h3>AMERICANO SPACIAL COFFEE</h3>
+    <p>The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier.</p>
+  </div>
+  <div class="news-content">
+    <img src="https://xpressrow.com/html/cafenod/assets/images/blog/img_02.png" alt="">
+    <h3>AMERICANO SPACIAL COFFEE</h3>
+    <p>The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier.</p>
+  </div>
+  <div class="news-content">
+    <img src="https://xpressrow.com/html/cafenod/assets/images/blog/img_03.png" alt="">
+    <h3>AMERICANO SPACIAL COFFEE</h3>
+    <p>The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier.</p>
+  </div>
+</div>
+</section>
+
+
+<section id="location">
+  <div class="location">
+<div class="location-content">
+  <img class="location-location-1" src="images/loacation.png" alt="">
+    <div class="newsletter">
+      <div class="newsletter-div">
+        <h1>JOIN THE
+        NEWSLETTER</h1>
+        <p>To receive our best monthly deals</p>
+        <input  type="email" placeholder="E-mail" class="newsletter-div-input" required> <br>
+        <button class="subscribe-btn">SUBSCRIBE</button>
+    </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+
+  </body>
+</html>
+  </body>
+</html>
